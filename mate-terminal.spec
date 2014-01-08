@@ -1,11 +1,11 @@
 Summary:	MATE terminal emulator
 Name:		mate-terminal
-Version:	1.6.1
+Version:	1.6.2
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://pub.mate-desktop.org/releases/1.6/%{name}-%{version}.tar.xz
-# Source0-md5:	c9e1c80d9184aca710e92bd944f2bb7c
+# Source0-md5:	30d12c11897e630ba3af07282adffd4d
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+-devel
