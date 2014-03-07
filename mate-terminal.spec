@@ -1,11 +1,11 @@
 Summary:	MATE terminal emulator
 Name:		mate-terminal
-Version:	1.6.2
+Version:	1.8.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://pub.mate-desktop.org/releases/1.6/%{name}-%{version}.tar.xz
-# Source0-md5:	30d12c11897e630ba3af07282adffd4d
+Source0:	http://pub.mate-desktop.org/releases/1.8/%{name}-%{version}.tar.xz
+# Source0-md5:	45c1009d94be8521a24c8fad71c8716d
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+-devel
@@ -15,7 +15,7 @@ BuildRequires:	pkg-config
 BuildRequires:	startup-notification-devel
 BuildRequires:	vte2-devel
 Requires(post,postun):	glib-gio-gsettings
-Requires:	mate-desktop
+Requires:	mate-desktop >= 1.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
